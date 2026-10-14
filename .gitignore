@@ -1,0 +1,18 @@
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Test cache
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+
+# Local editor settings
+.vscode/
+
+# Generated data files
+data/processed/
