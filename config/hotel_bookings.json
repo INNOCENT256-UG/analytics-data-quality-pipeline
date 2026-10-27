@@ -1,0 +1,24 @@
+{
+"dataset_name": "hotel_bookings",
+"required_columns": [
+"booking_id",
+"room_price",
+"nights",
+"guest_count"
+],
+"numeric_columns": [
+"room_price",
+"nights",
+"guest_count"
+],
+"positive_columns": [
+"room_price",
+"nights",
+"guest_count"
+],
+"non_negative_columns": [],
+"date_columns": [],
+"range_rules": {},
+"date_order_rules": [],
+"calculation_rules": []
+}

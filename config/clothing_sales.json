@@ -1,0 +1,56 @@
+{
+"dataset_name": "clothing_sales",
+
+"numeric_columns": [
+    "price_usd",
+    "discount_percent",
+    "rating",
+    "review_count",
+    "stock_quantity",
+    "units_sold",
+    "return_rate"
+],
+
+"required_columns": [
+"product_id",
+"category",
+"subcategory",
+"material",
+"color",
+"size",
+"season",
+"style",
+"price_usd",
+"discount_percent",
+"rating",
+"review_count",
+"stock_quantity",
+"units_sold",
+"return_rate"
+],
+"positive_columns": [
+"price_usd"
+],
+"range_rules": [
+{
+"column": "discount_percent",
+"min": 0,
+"max": 100
+},
+{
+"column": "rating",
+"min": 0,
+"max": 5
+},
+{
+"column": "return_rate",
+"min": 0,
+"max": 1
+}
+],
+"non_negative_columns": [
+"review_count",
+"stock_quantity",
+"units_sold"
+]
+}

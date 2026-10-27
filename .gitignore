@@ -1,18 +1,24 @@
-# Python virtual environment
+# Virtual environments
 .venv/
+venv/
 
-# Python cache files
+# Python cache
 __pycache__/
 *.py[cod]
 
-# Test cache
+# Pytest
 .pytest_cache/
+.coverage
+htmlcov/
 
 # Environment variables and secrets
 .env
+.env.*
 
-# Local editor settings
-.vscode/
+# VS Code local settings
+.vscode/*
+!.vscode/settings.json
 
-# Generated data files
-data/processed/
+# Operating system files
+.DS_Store
+Thumbs.db

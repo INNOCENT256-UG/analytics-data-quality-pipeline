@@ -1,0 +1,62 @@
+
+{
+    "dataset_name": "b2b_invoices",
+     "numeric_columns": [
+    "quantity",
+    "unit_cost",
+    "unit_price",
+    "revenue",
+    "cost",
+    "margin"
+],
+
+    "required_columns": [
+        "order_date",
+        "invoice_no",
+        "customer_id",
+        "customer",
+        "product_id",
+        "product",
+        "category",
+        "segment",
+        "quantity",
+        "unit_cost",
+        "unit_price",
+        "revenue",
+        "cost",
+        "margin",
+        "ship_date"
+    ],
+    "positive_columns": [
+        "quantity",
+        "unit_cost",
+        "unit_price"
+    ],
+    "date_columns": [
+        "order_date",
+        "ship_date"
+    ],
+    "date_order_rules": [
+        {
+            "earlier_date": "order_date",
+            "later_date": "ship_date"
+        }
+    ],
+    "calculation_rules": [
+        {
+            "target": "revenue",
+            "operation": "multiply",
+            "columns": ["quantity", "unit_price"]
+        },
+        {
+            "target": "cost",
+            "operation": "multiply",
+            "columns": ["quantity", "unit_cost"]
+        },
+        {
+            "target": "margin",
+            "operation": "subtract",
+            "columns": ["revenue", "cost"]
+        }
+    ]
+}
