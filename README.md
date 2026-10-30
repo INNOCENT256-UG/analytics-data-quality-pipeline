@@ -91,7 +91,7 @@ Each activity is implemented in a separate Python script, making the code easier
 
 The repository includes configurations for three dataset types:
 
-* 🧾 **B2B Invoices** — Invoice, customer, product, quantity, revenue, cost, and margin data.
+* 🧾 **B2B Invoices** — [B2B-SALES---INVOICES](https://github.com/INNOCENT256-UG/B2B-SALES---INVOICES) Invoice, customer, product, quantity, revenue, cost, and margin data.
 * 👕 **Clothing Sales** — Product attributes, prices, discounts, ratings, stock quantities, and sales data.
 * 🏨 **Hotel Bookings** — A configuration for hotel-booking data.
 
