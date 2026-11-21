@@ -1,6 +1,6 @@
 # 📊 Analytics Data Quality Pipeline
 
-### 🧹 Turning Raw Data into Reliable, Analysis-Ready Data
+### 🧹 Turning Raw Data into Reliable,   Analysis-Ready Data
 
 Welcome to the **Analytics Data Quality Pipeline** — a Python-based project designed to make data preparation more consistent, reusable, and reliable.
 
